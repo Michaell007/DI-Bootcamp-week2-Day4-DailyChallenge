@@ -15,7 +15,9 @@ for (let index = 0; index < nbStars; index++) {
 }
 
 
+// show first line
 console.log(starsStr);
+
 for (const item of tab) {
     // add spaces
     let space = "";
@@ -27,4 +29,6 @@ for (const item of tab) {
     }
     console.log(`*${item+space}*`);
 }
+
+// show last line
 console.log(starsStr);
